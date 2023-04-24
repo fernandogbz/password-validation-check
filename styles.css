@@ -55,3 +55,7 @@ body {
 .content p {
   font-size: 1.3rem;
 }
+
+.content .requirement-list {
+  margin-top: 20px;
+}
