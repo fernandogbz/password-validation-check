@@ -47,3 +47,7 @@ body {
   position: absolute;
   transform: translateY(-50%);
 }
+
+.wrapper .content {
+  margin: 20px 0 10px;
+}
