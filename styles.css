@@ -63,6 +63,7 @@ body {
 .requirement-list li {
   list-style: none;
   font-size: 1.3rem;
+  font-weight: 300;
   display: flex;
   align-items: center;
   margin-bottom: 15px;
@@ -72,4 +73,8 @@ body {
   font-size: 0.6rem;
   color: #aaa;
   width: 20px;
+}
+
+.requirement-list li span {
+  margin-left: 12px;
 }
