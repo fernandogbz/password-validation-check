@@ -14,3 +14,10 @@ body {
   min-height: 100vh;
   background-color: #4285f4;
 }
+
+.wrapper {
+  background-color: #fff;
+  width: 450px;
+  padding: 28px;
+  border-radius: 7px;
+}
