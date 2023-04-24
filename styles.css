@@ -21,3 +21,9 @@ body {
   padding: 28px;
   border-radius: 7px;
 }
+
+.wrapper .pass-field {
+  height: 65px;
+  width: 100%;
+  position: relative;
+}
