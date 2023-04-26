@@ -83,3 +83,8 @@ body {
 .requirement-list li span {
   margin-left: 12px;
 }
+
+.requirement-list li.valid span {
+  color: #999;
+  text-decoration: line-through;
+}
