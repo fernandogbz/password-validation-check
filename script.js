@@ -20,12 +20,16 @@ passwordInput.addEventListener("keyup", (e)=>{
     const requirementItem = requirementList[item.index];
 
     // Getting a particular element of object index number
-    // Updating icon of requirement item if requirement matched or not
+    // Updating class and icon of requirement item if requirement matched or not
     if(isValid) {
       // firstElementChild returns the first child of li, which is the icon element
       requirementItem.firstElementChild.className = "fa-solid fa-check";
+      // fade out particular text if the password matched
+      requirementItem.classList.add("valid");
+      
     } else {
       requirementItem.firstElementChild.className = "fa-solid fa-circle";
+      requirementItem.classList.remove("valid");
       
     }
   });
