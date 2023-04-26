@@ -2,6 +2,14 @@
 const passwordInput = document.querySelector(".pass-field input");
 const eyeIcon = document.querySelector(".pass-field i");
 
+// An array of password requirements with corresponding regular expressions and index of the requirement list item
+const requirements = [
+  {regex: /.{8,}/, index:0 },
+  {regex: /.[0-9]/, index:1 },
+  {regex: /.[a-z]/, index:2 },
+  {regex: /.[A-Z]/, index:3 },
+  {regex: /.[^A-Za-z0-9]/, index:4 },
+]
 
 passwordInput.addEventListener("keyup", ()=>{
 });
