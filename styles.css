@@ -102,5 +102,7 @@ body {
   .pass-field i, .requirement-list li {
     font-size: 1.1rem;
   }
-
+  .requirement-list li span {
+    margin-left: 7px;
+  }
 }
