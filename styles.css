@@ -96,5 +96,8 @@ body {
   .wrapper .pass-field {
     height: 55px;
   }
+  .pass-field input, .content p {
+    font-size: 1.15rem;
+  }
 
 }
