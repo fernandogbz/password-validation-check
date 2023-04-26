@@ -88,3 +88,7 @@ body {
   color: #999;
   text-decoration: line-through;
 }
+
+@media screen and (max-width:390px) {
+  
+}
