@@ -90,5 +90,8 @@ body {
 }
 
 @media screen and (max-width:390px) {
-  
+  body, .wrapper {
+    padding: 15px;
+  }
+
 }
