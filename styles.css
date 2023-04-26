@@ -93,5 +93,8 @@ body {
   body, .wrapper {
     padding: 15px;
   }
+  .wrapper .pass-field {
+    height: 55px;
+  }
 
 }
